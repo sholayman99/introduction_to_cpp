@@ -1,0 +1,16 @@
+Dynamic Variables:
+---------------------------
+1)Stored in heap memory (a region of memory for dynamic allocation).
+2)Their size can be increased or changed during runtime.
+3)When returned from a function, they are not automatically deleted — you must manually free the memory (especially in languages like C/C++).
+
+Static Variables:
+---------------------------
+1)Usually stored in stack memory, or in static/global memory depending on context.
+2)Their size is fixed and cannot be changed after declaration.
+3)When returned from a function, they may get deleted (if stored on the stack) — unless declared as static, which keeps them alive even after the function ends.
+
+Optional Note for Clarity:
+---------------------------
+1)In C/C++, "static" variables inside functions are not stored on the stack — they stay in memory for the lifetime of the program.
+2)Heap memory is slower but flexible. Stack memory is faster but limited and temporary
