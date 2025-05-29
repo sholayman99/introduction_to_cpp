@@ -16,23 +16,20 @@ class Student
      }  
 };
 
+Student* fun()
+{
+    Student b(1,5,4.5);
+    Student* p = &b;
+    return p;
+}
+
 int main()
 {
     Student a(2,5,4.0);
-    Student b(1,5,4.5);
+    Student * pp = new Student(2,3,4.95) ;
     
     cout << a.roll << " " << a.gpa << " " << a.cls << endl;
-    cout << b.roll << " " << b.gpa << " " << b.cls << endl;
+    cout << pp->roll << " " << pp->gpa << " " <<pp->cls << endl;
 
     return 0;
 }
-
-/**
- * What is constructor?
-  --: Constructor is special type of function.
-    Properties of constructor:
-     1. It have to be inside class
-     2. It doesn't have any return type
-     3. Constructor and class name have to be same
-     4. When creating a constructor it have to be called.
- */
