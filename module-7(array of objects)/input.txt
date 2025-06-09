@@ -1,0 +1,7 @@
+3
+sak al
+3 1
+rak al
+5 2
+lak al
+7 3
