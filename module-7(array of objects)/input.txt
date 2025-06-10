@@ -1,7 +1,6 @@
-3
-sak al
-3 1
-rak al
-5 2
-lak al
-7 3
+5
+sak 3 71
+rak 5 61
+lak 7 81
+bak 9 91
+hak 10 85
