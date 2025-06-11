@@ -1,5 +1,3 @@
-rak 5 61
-sak 3 71
-lak 7 81
-hak 10 85
-bak 9 91
+Nakib 5 90
+Sakib 1 80
+Rakib 2 80
